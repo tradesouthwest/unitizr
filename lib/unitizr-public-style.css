@@ -1,0 +1,85 @@
+/* Unitizr plugin public styles
+.input-text {
+    border: 1px solid #c2c2c2;
+    border-radius: 0;
+    color: #414042;
+    line-height: 20px;
+    margin: 0 0 20px;
+    min-height: 35px;
+    padding: 5px 5px 5px 10px;
+    width: 100%;
+} */
+.woocommerce input[type=text],
+.woocommerce input[type="number"],
+.woocommerce .quantity .qty {
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    border: 1px solid #c2c2c2;
+    border-radius: 0;
+    color: inherit;
+    line-height: 20px;
+    margin: 0 0 20px;
+    min-height: 35px;
+    padding: 5px 5px 5px 10px;
+}
+.woocommerce input[type=text]:focus,
+.woocommerce input[type=number]:focus,
+.woocommerce .quantity .qty {
+    border-color: rgba(82, 82, 82, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+}
+.alignwnd label,
+.wndfee label{
+font-weight: bolder;
+}
+.wndfee span{
+color:inherit;
+}
+.wndfee{
+background: #ffffff;
+padding: 3px 1px;
+}
+.alignwnd{
+text-align:right;
+padding-top:.22em
+}
+.alignwnd:after{
+content: "";
+clear: both;
+display: block;
+width: 100%;
+height: 1px;
+background: #999;
+margin-bottom: 1em;
+}
+.alignwnd:first-child::before{
+content: "";
+clear: both;
+display: block;
+width: 100%;
+height: 1px;
+background: #999;
+margin-bottom: 1em;
+}
+.alignwnd input#wnd_quantity,
+.alignwnd input#wnd_wndbegin{
+margin-bottom: 1em;
+}
+.rtl .wndfee span{
+padding-right: 1em;
+}
+.rtl .alignwnd label,
+.rtl .alignwnd input {
+    display: block;
+    float: left;
+    position: relative;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.rtl .alignwnd{
+    text-align:left;
+}
+  
