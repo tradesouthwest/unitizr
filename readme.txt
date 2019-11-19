@@ -5,7 +5,7 @@ Tags:             woocommerce, rental, product, addition
 Requires at least: 4.2
 Tested up to:      5.2.2
 Requies:           Woocommerce plugin
-Stable tag:        1.0.3
+Stable tag:        1.0.31
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
 Plugin URI:        http://themes.tradesouthwest.com/plugins/
