@@ -5,7 +5,7 @@ Tags:             woocommerce, rental, product, addition
 Requires at least: 4.2
 Tested up to:      5.2.2
 Requies:           Woocommerce plugin
-Stable tag:        trunk
+Stable tag:        1.0.3
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
 Plugin URI:        http://themes.tradesouthwest.com/plugins/
@@ -51,6 +51,9 @@ Q.: Can I change the background colors of individual boxes?
 A.: There is a chart in your admin page with the names of all the selectors. If you know CSS then you can use any CSS editor to add
 your background colors to.
 
+Q.: Product Unitizr field labels do not show on product page?
+A.: You must fill in the options in the Unitizr admin control panel for them to show. If there are no options set then the fields will have no labels.
+
 == Screenshots ==
 
 1. Front side added form fields
@@ -62,6 +65,15 @@ your background colors to.
 == Upgrade Notice ==
 
 == Changelog ==
+
+= 1.0.31 =
+* refactored uninstall to accept unitizr-plus options
+* added git updater prep
+
+= 1.0.3 =
+* Aug 2019
+* updated meta key query
+* changed meta key name
 
 = 1.0.2 =
 * Sept 2019
