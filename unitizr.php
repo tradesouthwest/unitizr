@@ -1,26 +1,29 @@
 <?php
 /**
  * Plugin Name:       Unitizr
- * Plugin URI:        https://themes.tradesouthwest.com/wordpress/plugins/
+ * Plugin URI:        http://themes.tradesouthwest.com/wordpress/plugins/
  * Description:       For WooCommerce, adds number of days to checkout. Opens under WooCommerce > Settings > Products > unitizr.
- * Version:           1.0.2
+ * Version:           1.0.31
  * Author:            Larry Judd
  * Author URI:        http://tradesouthwest.com
  * @wordpress-plugin  wpdb =
- * License:           GPLv2 or later
- * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Requires Package:  WooCommerce 3.0+
+ * Tested Package:    WooCommerce 3.8.0
  * Requires at least: 4.5
  * Tested up to:      5.2.2
  * Requires PHP:      5.4
  * Text Domain:       unitizr
  * Domain Path:       /languages
+ * GitHub Plugin URI: https://github.com/tradesouthwest/unitizr
+ * GitHub Languages:  https://github.com/tradesouthwest/unitizr-translations
  */
 
 // If this file is called directly, abort.
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
-if (!defined('UNITIZR_VER')) { define('UNITIZR_VER', '1.0.2'); } 
+if (!defined('UNITIZR_VER')) { define('UNITIZR_VER', '1.0.31'); } 
 //activate/deactivate hooks
 function unitizr_plugin_activation() {
 
