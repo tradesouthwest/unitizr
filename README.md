@@ -16,11 +16,24 @@ unitizr.php
 
 /inc/unitizr-functions.php
 #### Before ver 1.1.0
+- add_filter( 'woocommerce_get_sections_products', 'unitizr_add_section' );
+- add_filter( 'woocommerce_get_settings_products', 'unitizr_add_settings', 12, 2 );
 #### After
+- add_filter( 'woocommerce_get_sections_products', 'unitizr_add_section' );
+- add_filter( 'woocommerce_get_settings_products', 'unitizr_add_settings', 12, 2 );
+    - changed slug to match before ver!
 
 /inc/unitizr-adminpage.php replaced by /include/unitizr-core.php
 #### Before ver 1.1.0
+- add_action( 'admin_menu', 'unitizr_add_options_page' ); 
+    - unitizr_options_page unitizr_options_section
+- add_action( 'admin_init', 'unitizr_register_admin_options' ); 
+    - register_setting( 'unitizr_options', 'unitizr_options' );
 #### After
+- add_action( 'admin_menu', 'unitizr_add_options_page' ); 
+    - unitizr_options_page unitizr_options_section
+- add_action( 'admin_init', 'unitizr_register_admin_options' ); 
+    - register_setting( 'unitizr_options', 'unitizr_options' );
 
 /inc/unitizr-postmeta.php replaced by /include/unitizr-postmeta.php
 #### Before ver 1.1.0
