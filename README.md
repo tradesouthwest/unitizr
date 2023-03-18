@@ -14,7 +14,7 @@ unitizr.php
     - unitizr-public
 
 
-/inc/unitizr-functions.php replaced by /includes/unitizr-functions.php
+> /inc/unitizr-functions.php replaced by /includes/unitizr-functions.php
 ##### Before ver 1.1.0
 - add_filter( 'woocommerce_get_sections_products', 'unitizr_add_section' );
 - add_filter( 'woocommerce_get_settings_products', 'unitizr_add_settings', 12, 2 );
