@@ -13,9 +13,11 @@ unitizr.php
     - jquery-ui
     - unitizr-public
 
+#### After ver 1.1.0
+
 /inc/unitizr-functions.php
 
-/inc/unitizr-adminpage.php
+/inc/unitizr-adminpage.php replaced by /include/unitizr-core.php
 
 /inc/unitizr-postmeta.php
 
